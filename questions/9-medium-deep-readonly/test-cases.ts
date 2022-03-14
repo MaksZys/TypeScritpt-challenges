@@ -21,6 +21,8 @@ type X = {
   }
 }
 
+type Testasdf = DeepReadonly<X>;
+
 type Expected = {
   readonly a: () => 22
   readonly b: string
